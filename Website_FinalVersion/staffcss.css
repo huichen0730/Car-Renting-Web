@@ -1,0 +1,300 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+	font-family: "Roboto",sans-serif;
+}
+
+head
+{
+
+}
+
+.h1
+{
+	position: sticky:fixed;
+	top:0%;
+	padding: 0px;
+	width: 100%;
+	height: 7%;
+	border:1px solid black;
+	border-radius: 0px;
+	background-color:black;
+	opacity: 0.4;
+}
+
+.h2
+{
+	position: absolute;
+	left: 11%;
+	color:white;
+	
+}
+
+
+
+.main-nav
+{
+    float:right;
+    list-style:none;
+    margin-top: 30px;
+}
+
+.main-nav li
+{
+    display:inline-block;
+}
+
+.main-nav li a
+{
+    color:white;
+    text-decoration: underline;
+    padding: 5px 20px;
+    font-family: "Roboto",sans-serif;
+    font-size:15px;
+}
+
+.main-nav li.active a
+{
+    border: 1px solid white;
+}
+
+.main-nav li:hover
+{
+    border: 1px solid white;
+}
+
+.logo img
+{
+	position:absolute;
+	top:0%;
+	left:0%;
+	opacity: 1;
+    width:80px;
+    height:auto;
+    float:left-side;
+}
+
+.phpgreeting
+{
+	color:white;
+	text-align: right;
+	font-size:20px;
+	margin-right:15%;
+	margin-top:-1.2%;
+	
+}
+
+.phplogout
+{
+	margin-right:35%;
+	margin-top:-0.5%;
+
+}
+
+.phpprofile
+{
+	
+	
+}
+
+
+body
+{
+	background-image:url(Images/car2.jpg);
+	background-repeat: no-repeat;
+	height: 90%;
+    background-size: cover;
+    background-position: center;  
+    font-family: monospace;
+}
+
+.row
+{
+	position:sticky;
+	padding: 0px;
+    max-width: 100%;
+    margin: auto;
+	border:1px solid black;
+	border-radius: 0px;
+}
+
+.centerdiv
+{
+	position: absolute;
+	right:5%;
+	top: 15%;
+	font: "Roboto";
+	color: #fff;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+	margin:0px;
+	text-align: left;
+	background-color: transparent;
+	width:75%;
+	height:30%;
+}
+
+.loginheader
+{
+	font: "Roboto";
+	font-style: bold;
+	font-size: 32px;
+}
+
+.form
+{
+	font: "Roboto";
+	text-align: left;
+}
+.centered {
+  margin:50px auto;
+  text-align:center;
+}
+
+.button::-moz-focus-inner{
+  border: 0;
+  padding: 0;
+}
+
+.button{
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  padding: 6px 20px;
+  margin: 0;
+  cursor: pointer;
+  border: 1px solid #bbb;
+  overflow: visible;
+  font: bold 13px arial, helvetica, sans-serif;
+  text-decoration: none;
+  white-space: nowrap;
+  color: #555;
+  width: 175px;
+  text-align:center;
+  
+  background-color: #ddd;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,1)), to(rgba(255,255,255,0)));
+  background-image: -webkit-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,0));
+  background-image: -moz-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,0));
+  background-image: -ms-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,0));
+  background-image: -o-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,0));
+  background-image: linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,0));
+  
+  -webkit-transition: background-color .2s ease-out;
+  -moz-transition: background-color .2s ease-out;
+  -ms-transition: background-color .2s ease-out;
+  -o-transition: background-color .2s ease-out;
+  transition: background-color .2s ease-out;
+  background-clip: padding-box; /* Fix bleeding */
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, .3), 0 2px 2px -1px rgba(0, 0, 0, .5), 0 1px 0 rgba(255, 255, 255, .3) inset;
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, .3), 0 2px 2px -1px rgba(0, 0, 0, .5), 0 1px 0 rgba(255, 255, 255, .3) inset;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, .3), 0 2px 2px -1px rgba(0, 0, 0, .5), 0 1px 0 rgba(255, 255, 255, .3) inset;
+  text-shadow: 0 1px 0 rgba(255,255,255, .9);
+  
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.button:hover{
+  background-color: #eee;
+  color: #555;
+}
+
+.button:active{
+  background: #e9e9e9;
+  position: relative;
+  top: 1px;
+  text-shadow: none;
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, .3) inset;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .3) inset;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .3) inset;
+}
+
+.button[disabled], .button[disabled]:hover, .button[disabled]:active{
+  border-color: #eaeaea;
+  background: #fafafa;
+  cursor: default;
+  position: static;
+  color: #999;
+  /* Usually, !important should be avoided but here it's really needed :) */
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+}
+.button.large{
+  padding: 12px 30px;
+  text-transform: uppercase;
+}
+
+.button.large:active{
+  top: 2px;
+}
+
+.signinbutton
+{
+	background-color:#D3D3D3;
+}
+
+.butbar
+{
+	position: fixed;
+	left:1px;
+	text-align: left;
+	padding: 9px;
+	width: auto;
+	height: auto;
+	border-radius: 0px 0px 15px 0px;
+	background-color:rgba(0, 0, 0, 0.4);
+	margin:auto auto -1 -1;
+}
+.sidesearch
+{
+	position: fixed;
+	left:1px;
+	text-align: left;
+	padding: 9px;
+	width: auto;
+	height: auto;
+	border-radius: 0px 0px 15px 0px;
+	background-color:rgba(0, 0, 0, 0.4);
+	margin:auto auto -1 -1;
+}
+
+table {
+	position:absolute;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+	height:auto;
+    width: 86%;
+	left: 11%;
+	top: 10%;
+}
+
+th {
+	color:white;
+    border: 1px solid DarkGray;
+    text-align: left;
+    padding: 8px;
+}
+
+td 
+{
+	border: 1px solid DarkGray;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: white;
+}
+tr:nth-child(odd) {
+    background-color:#D8D8D8;
+}

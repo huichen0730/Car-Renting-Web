@@ -1,0 +1,228 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+	font-family: "Roboto",sans-serif;
+}
+
+head
+{
+
+ 
+}
+.h1
+{
+	position: sticky:fixed;
+	top:0%;
+	padding: 0px;
+	width: 100%;
+	height: auto;
+	border:1px solid black;
+	border-radius: 0px;
+	background-color:black;
+	opacity: 0.8;
+}
+.main-nav
+{
+    text-align:center;
+    list-style:none;
+    margin-top: 20px;
+	
+}
+
+.main-nav form
+{
+	float:right;
+	margin-right:150px;
+	letter-spacing:2px;
+	font-size:15px;
+}
+
+.main-nav input[type="email"],input[type="password"],input[type="submit"],button
+{
+	padding:5px;
+	font-size:15px;
+	font-family:Arial;
+	border:none;
+	margin:1px;
+}
+.main-nav input[type="submit"],button
+{
+	background:orange;
+	color:white;
+	padding:5px 15px;
+	border-radius:0 5px 5px 0;
+	cursor:pointer;
+	font-weight:bold;
+}
+
+
+.main-nav li
+{
+    display:inline-block;
+}
+
+.main-nav li a
+{
+    color:white;
+    text-decoration: underline;
+    padding: 5px 20px;
+    font-family: "Roboto",sans-serif;
+    font-size:15px;
+}
+
+.main-nav li.active a
+{
+    border: 1px solid white;
+}
+
+.main-nav li:hover
+{
+    border: 1px solid white;
+}
+
+.logo img
+{
+	position:absolute;
+	top:0%;
+	left:0%;
+	opacity: 1;
+    width:80px;
+    height:auto;
+    float:left-side;
+}
+
+.phpgreeting
+{
+	color:white;
+	text-align: left;
+	font-size:20px;
+	margin-right:-15%;
+	margin-top:-1.5%;
+	
+}
+
+.feedbackmessage
+{
+	color:white;
+	text-align: center;
+	font-size:25px;
+	margin-top:0%;
+}
+
+.phplogout
+{
+	margin-left:80%;
+	
+
+}
+
+body
+{
+	background-image:url(Images/car2.jpg);
+	background-repeat: no-repeat;
+	height: 100%;
+    background-size: cover;
+    background-position: center;  
+    font-family: monospace;
+}
+
+.row
+{
+	position:sticky;
+	padding: 0px;
+    max-width: 100%;
+    margin: auto;
+	border:1px solid black;
+	border-radius: 0px;
+}
+
+.personal_profile
+{
+	margin-top:7.8%;
+	text-align:center;
+	font-size:30px;
+	color:white;
+}
+
+.edit_button
+{
+	margin-left:73%;
+	margin-top:-1.5%;
+}
+
+.delete_button
+{
+	margin-top:-1.5%;
+	margin-left:80%;
+}
+
+table {
+	margin-top:10%;
+	position:absolute;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+	height:auto;
+    width: auto;
+	left: 20%;
+	top: 10%;
+	opacity: 2;
+}
+ 
+table#edit {
+    margin-top:20%;
+	position:absolute;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+	height:auto;
+    width: auto;
+	left: 20%;
+	top: 10%;
+	opacity: 2;
+}
+
+table#editad {
+    margin-top:30%;
+	position:absolute;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+	height:auto;
+    width: auto;
+	left: 20%;
+	top: 10%;
+	opacity: 2;
+}
+
+table#editpref {
+    margin-top:40%;
+	position:absolute;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+	height:auto;
+    width: auto;
+	left: 20%;
+	top: 10%;
+	opacity: 2;
+}
+ 
+th {
+	color:white;
+    border: 1px solid DarkGray;
+    text-align: center;
+    padding: 8px;
+}
+
+td 
+{
+	border: 1px solid DarkGray;
+    text-align: center;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: white;
+}
+
+tr:nth-child(odd) {
+    background-color:#D8D8D8;
+}

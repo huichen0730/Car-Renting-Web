@@ -1,0 +1,472 @@
+
+@media only screen and (max-width: 1400px) 
+{
+	.paragraphs
+	{
+		transform: translate(-20%,-15%) scale(0.7, 0.7);
+	}
+	
+	.booking-page
+	{
+		transform: translate(-150%,-15%) scale(0.7, 0.7);
+	}
+}
+*
+{
+    margin: 0px;
+    padding: 0px;
+	font-family: "Roboto",sans-serif;
+}
+
+head
+{
+
+ 
+}
+
+.h1
+{
+	position: sticky:fixed;
+	top:0%;
+	padding: 0px;
+	width: 100%;
+	max-height: auto;
+	border:1px solid black;
+	border-radius: 0px;
+	background-color:black;
+	opacity: 0.7;
+}
+
+.main-nav
+{
+    text-align:center;
+    list-style:none;
+    margin-top: 30px;
+}
+
+.main-nav form
+{
+	float:right;
+	margin-right:150px;
+	letter-spacing:2px;
+	font-size:15px;
+}
+
+.main-nav input[type="email"],input[type="password"],input[type="submit"],button
+{
+	padding:5px;
+	font-size:15px;
+	font-family:Arial;
+	border:none;
+	margin:1px;
+}
+
+.main-nav input[type="submit"],button
+{
+	background:orange;
+	color:white;
+	padding:5px 15px;
+	border-radius:0 5px 5px 0;
+	cursor:pointer;
+	font-weight:bold;
+}
+
+/*This is for register button*/
+.main-nav button			
+{
+	margin-right:-1650%;
+	margin-top:-1.5%;
+}
+
+.main-nav li,
+{
+    display:inline-block;
+}
+
+.main-nav li a
+{
+    color:white;
+    text-decoration: underline;
+    padding: 5px 20px;
+    font-family: "Roboto",sans-serif;
+    font-size:15px;
+}
+
+.main-nav li.active a
+{
+    border: 1px solid white;
+}
+
+.main-nav li:hover
+{
+    /* border: 1px solid white; */
+}
+
+.logo img
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	opacity: 1;
+    width:80px;
+    height:auto;
+    float:left-side;
+}
+
+.phpgreeting
+{
+	color:white;
+	text-align: right;
+	font-size:20px;
+	right:100px;
+	
+	
+}
+
+.feedbackmessage
+{
+	position:absolute;
+	left:100px;
+	color:white;
+	text-align: center;
+	font-size:25px;
+	
+
+}
+
+
+.phplogout
+{
+	margin-right:34%;
+	margin-top:-1.2%;
+
+}
+
+.phpprofile
+{
+	
+	
+}
+
+body
+{
+	background-image: url(Images/car2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	background-size: 100% auto;
+	padding:0px;
+	margin:0px;
+}
+
+.row
+{
+	position:sticky;
+	padding: 0px;
+    width: 100%;
+    margin: auto;
+	border:1px solid black;
+	border-radius: 0px;
+	height:60px;
+}
+
+
+.paragraphs
+{
+	position: absolute;
+	left: 100px;
+	top:30%;
+	text-align: left;
+	padding: 10px;
+	width: 650px;
+	height: 300px;
+	border:1px solid black;
+	border-radius: 25px;
+	background-color:#4D4D4A;
+	opacity:0.8;
+	color:white;
+	text-shadow:-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-family: Arial;
+	font-size: 24px;
+}
+
+
+.booking-page
+{
+	
+	width:400px;
+	height:500px;
+	background:#4D4D4A;
+	color:#FFFFFE;
+	top:25%;
+	left:1200px;
+	position:absolute;
+	box-sizing:border-box;
+	padding:70px 30px;
+	opacity:0.9;
+}
+
+.hire-cars
+{
+	width:100px;
+	height:100px;
+	position:absolute;
+	top:-50px;
+	left:calc(50% - 50px);
+}
+
+h1
+{
+	margin:0;
+	padding: 0 0 20px;
+	text-align:center;
+	font-size:25px;
+}
+
+.booking-page p
+{
+	margin:0;
+	padding:0;
+	font-weight:bold;
+}
+
+.booking-page input
+{
+	width:100%;
+	margin-bottom:20px;
+}
+
+.booking-page input[type="date"],input[type="text"]
+{
+	border:none;
+	border-bottom:1px solid #000;
+	background:transparent;
+	outline:none;
+	height:30px;
+}
+
+.booking-page select
+{
+	border:none;
+	border-bottom:1px solid #000;
+	background:#4D4D4A;
+	color:#000;
+	-webkit-appearance:border;
+	outline:none;
+	height:30px;
+}
+
+.booking-page input[type="submit"],input[type="reset"]
+{
+	border:none;
+	outline:none;
+	height:40px;
+	background:#FE4736;
+	color:white;
+	font-size:18px;
+	border-radius:20px;
+}
+
+.booking-page input[type="submit"]:hover
+{
+	cursor:pointer;
+	background:#969FE7;
+	color:white;
+}
+  
+.booking-page input[type="reset"]:hover
+{
+	cursor:pointer;
+	background:#969FE7;
+	color:white;
+}
+
+.required:after{
+  content:"*";
+  font-weight:bold;
+}
+
+.centerdiv
+{
+	font: "Roboto";
+	color: #fff;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+	margin:auto;
+	text-align: center;
+	background-color: transparent;
+	width:75%;
+	height:30%;
+}
+
+.loginheader
+{
+	font: "Roboto";
+	font-style: bold;
+	font-size: 26px;
+}
+
+.centered {
+  margin:50px auto;
+  text-align:center;
+}
+.form
+{
+	font: "Roboto";
+	text-align: center;
+    position: absolute;
+    right: 10%;
+    width: 10%;
+    padding: 10px;
+	
+}
+
+.signinbutton
+{
+	background-color:#D3D3D3;
+}
+
+.butbar
+{
+	position: fixed;
+	left:1px;
+	text-align: left;
+	padding: 9px;
+	width: auto;
+	height: auto;
+	border-radius: 0px 0px 15px 0px;
+	background-color:rgba(0, 0, 0, 0.4);
+	margin:auto auto -1 -1;
+	color:white;
+}
+
+
+#box{
+    width:175px;
+    height:auto;
+    background:grey;
+	
+}
+
+#data {
+	background-color:rgba(0, 0, 0, 0.4);
+    position: absolute;
+    left: 20%;
+    top: 100px;
+    border: 3px solid #4d4d4a;
+    padding: 15px;
+	color:white
+	width:auto;
+}
+
+#cars {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+	color:white;
+}
+
+#cars tr, #cars th, #cars td {
+		padding-bottom: 40px;
+}
+
+#cars tr:{background-color: #4d4d4a;}
+
+#carimage {
+	width:400; 
+	height:200;
+	float:right;
+	object-fit: cover;
+}
+
+#info {
+	list-style-type:none
+	
+}
+
+#rent
+{
+	background:#FE4736
+{
+}
+#info {
+	width:100%;
+}
+
+.personal_profile
+{
+	margin-top:7.8%;
+	text-align:center;
+	font-size:30px;
+	color:white;
+}
+
+.edit_button
+{
+	margin-left:73%;
+	margin-top:-1.5%;
+}
+
+.delete_button
+{
+	margin-top:-1.5%;
+	margin-left:80%;
+}
+
+table {
+	margin-top:10%;
+	position:absolute;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+	height:auto;
+    width: auto;
+	left: 20%;
+	top: 10%;
+	opacity: 2;
+}
+ 
+table#edit {
+    margin-top:20%;
+	position:absolute;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+	height:auto;
+    width: auto;
+	left: 20%;
+	top: 10%;
+	opacity: 2;
+}
+
+table#editad {
+    margin-top:30%;
+	position:absolute;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+	height:auto;
+    width: auto;
+	left: 20%;
+	top: 10%;
+	opacity: 2;
+}
+ 
+th {
+	color:white;
+    border: 1px solid DarkGray;
+    text-align: center;
+    padding: 8px;
+}
+
+td 
+{
+	border: 1px solid DarkGray;
+    text-align: center;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: white;
+}
+
+tr:nth-child(odd) {
+    background-color:#D8D8D8;
+}
