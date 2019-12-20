@@ -10,6 +10,20 @@
 - Website Interface
   - screenshots of different pages of the website (with number labels) where customers and staffs would be provided with different views
   - HomePage:
+  
   ![Screenshot of the Home page](https://github.com/huichen0730/Car-Renting-Web/blob/master/websiteScreenshots/Main.png)
   
+  - Car Selection:
+  
+   ![Screenshot of the Car Selection page](https://github.com/huichen0730/Car-Renting-Web/blob/master/websiteScreenshots/carselect.png)
+   
+  - Order Page:
+  
+   ![Screenshot of the order page](https://github.com/huichen0730/Car-Renting-Web/blob/master/websiteScreenshots/purchase.png)
+  
+  - Staff View:
+  
+   ![Screenshot of a staff interface](https://github.com/huichen0730/Car-Renting-Web/blob/master/websiteScreenshots/StaffCar.png)
+  
 - User Manual 
+  - See the document User Manual;
