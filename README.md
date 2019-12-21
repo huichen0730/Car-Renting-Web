@@ -8,7 +8,8 @@
   - mainly includes .php, .css files with relevant source images
   
 - Website Interface
-  - screenshots of different pages of the website (with number labels) where customers and staffs would be provided with different views
+  - screenshots of different pages of the website **(with number labels)** where customers and staffs would be provided with different views 
+  *(Note: image sources from the user manual)*
   - HomePage:
   
   ![Screenshot of the Home page](https://github.com/huichen0730/Car-Renting-Web/blob/master/websiteScreenshots/Main.png)
